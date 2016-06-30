@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <form name="form1" action="process_register.php" method="POST">
+            <input type="hidden" name="check_submit" value="1"/>
+            Username:<br>
+            <input type="text" name="username"><br>
+            Password (8 characters at least):<br>
+            <input type="password" name="password" maxlength="20"><br><br>
+            
+            <br><br>Click the option that you require:<br>
+            <input type="radio" name="inputting" value="signin" checked="checked"/>Sign-In
+            <input type="radio" name="inputting" value="register" />Register
+            <br><br>
+            <input type="submit" name="submit">
+        </form>
+        <?php
+        
+        ?>
+    </body>
+</html>
